@@ -9,7 +9,7 @@
 <script language="JScript">
 <![CDATA[
 	function Exec()	{
-		var r = new ActiveXObject("WScript.Shell").Run("calc.exe");
+		var r = new ActiveXObject("WScript.Shell").Run('calc.exe');
 	}
 ]]>
 </script>
