@@ -1,0 +1,14 @@
+[version]
+Signature=$purple$
+AdvancedINF=2.6
+
+[DefaultInstall_SingleUser]
+RegisterOCXs=RegisterOCXSection
+
+[RegisterOCXSection]
+c:\temp\T1218.dll
+
+[Strings]
+AppAct = "SOFTWARE\Microsoft\Connection Manager"
+ServiceName = "purple"
+ShortSvcName = "purple"
