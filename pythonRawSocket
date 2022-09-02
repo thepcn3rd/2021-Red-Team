@@ -1,0 +1,12 @@
+#!/usr/bin/python3
+
+import socket
+import sys
+
+ip = "x.x.x.x"
+port = x
+s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+s.connect((ip, port))
+s.send("test\n".encode())
+s.send("test2\n".encode())
+s.close()
